@@ -3,3 +3,4 @@
 str = "Saksh $$$$ Naksh $fy$"
 
 print(str.count("$"))
+
