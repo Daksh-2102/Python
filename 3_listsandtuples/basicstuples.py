@@ -19,3 +19,4 @@ print(tuple)
 list = [] #we can print empty list as well
 print(list)
 print(type(list))
+
