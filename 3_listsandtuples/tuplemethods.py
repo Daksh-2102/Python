@@ -6,4 +6,4 @@ print(tup.index(2)) #0(index value)
 print(tup.index(3)) #1
 
 #2. tuple.count(element) :- Counts the occurence of that element
-print(tup.count(2))
+print(tup.count(2)) #3
