@@ -19,5 +19,13 @@ print(list) # It revrses the previous list i.e [1,2,4,9,11]
 
 #5. list.insert(index,element)
 list.insert(0,123)
-list.insert(4,13)
+list.insert(4,2)
+print(list)
+
+#5. list.remove(number) :- It removes the ist occurence of that particular element
+list.remove(2)
+print(list)
+
+#6. list.pop(index) :- It removes/popes the element of that particular index
+list.pop(0)
 print(list)
