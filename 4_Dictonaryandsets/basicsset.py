@@ -15,3 +15,7 @@ print(type(set1))
 set2 = { 1,2,2,2,'ratuu','catuu',89.99,3}
 print(set2)
 print(len(set2))
+
+#in set empty set is denotes as set()
+coll = set()
+print(type(coll))
