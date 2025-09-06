@@ -1,0 +1,10 @@
+#reverse counting using while loops 
+
+i = 20
+
+print("Reverse counting : ",end = " ")
+while i >= 1:
+    print(i , end = " ")
+    i-=1
+
+print("\nEnd")
