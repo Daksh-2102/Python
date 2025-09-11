@@ -1,0 +1,1 @@
+It will delete the previous text and writes the new text
