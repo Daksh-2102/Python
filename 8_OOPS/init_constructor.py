@@ -6,7 +6,7 @@ class Student:
         self.marks = marks
         print("Add Students")
 
-s1 = Student("Daksh", 100)
+s1 = Student("Daksh" , 100)
 print(s1.name,s1.marks)
 
 s2 = Student("Vasu", 99)
