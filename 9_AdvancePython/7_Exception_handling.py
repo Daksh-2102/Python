@@ -3,6 +3,13 @@
 i.e an eg of try and except'''
 
 
+try:
+    with open("/home/daksh/Documents/pythoncodes/9_AdvancePython/fle1.txt",'r') as f:
+        data = f.read()
+        print(data)
 
-
-    
+except FileNotFoundError :
+    print("File1 not Found open file2")
+    with open("/home/daksh/Documents/pythoncodes/9_AdvancePython/file2.txt",'r') as f:
+        data = f.read()
+        print(data)
