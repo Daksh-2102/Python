@@ -19,4 +19,7 @@ def sum(a : int , b : int) -> int :
     sum = a+b
     print(sum)
 
-sum(2,8)
+a = int(input("Enter a :"))
+b = int(input("Enter b :"))
+
+sum(a,b)
