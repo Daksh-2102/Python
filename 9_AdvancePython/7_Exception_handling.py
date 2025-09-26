@@ -12,4 +12,4 @@ except FileNotFoundError :
     print("File1 not Found open file2")
     with open("/home/daksh/Documents/pythoncodes/9_AdvancePython/file2.txt",'r') as f:
         data = f.read()
-        print(data)
+        print(data) 
