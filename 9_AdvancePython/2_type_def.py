@@ -19,4 +19,4 @@ def sum(a : int , b : int) -> int :
     sum = a+b
     print(sum)
 
-sum(1,8)
+sum(2,8)
