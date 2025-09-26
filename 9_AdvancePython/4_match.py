@@ -12,7 +12,7 @@ def network_protocols(protocol):
         case 'tls':
             print(f"{protocol} : TRANSPORT LAYER PROTOCOL")    
         case _:
-            print(f"{protocol} : I don't want to add this protocol !! meri mrziiii :) ")
+            print(f"{protocol} is not added by me :) ")
 
 
 pro = input("Enter protocol : ")
