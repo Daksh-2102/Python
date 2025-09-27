@@ -6,3 +6,5 @@ def func(n):
 
  
 func(int(input("Enter n : ")))
+
+print(__name__)
