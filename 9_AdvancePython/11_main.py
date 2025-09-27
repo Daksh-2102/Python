@@ -1,1 +1,0 @@
-from module_main_ import func
