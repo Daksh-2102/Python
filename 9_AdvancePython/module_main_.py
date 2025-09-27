@@ -4,7 +4,10 @@ def func(n):
     else :
         print("hiiii")
 
- 
-func(int(input("Enter n : ")))
 
-print(__name__)
+
+if __name__ == "__main__":
+    #directly printing fro here then run this
+    func(int(input("Enter n : ")))
+    print("We r directly running this code")
+    print(__name__)
