@@ -4,5 +4,5 @@ def func(n):
     else :
         print("hiiii")
 
-
+ 
 func(int(input("Enter n : ")))
