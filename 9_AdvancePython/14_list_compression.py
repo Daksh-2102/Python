@@ -7,4 +7,4 @@ squarelist = []
 for i in list1:
     squarelist.append(i*i)
 
-print(squarelist)
+print(squarelist) 
