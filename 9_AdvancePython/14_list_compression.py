@@ -12,4 +12,4 @@ list1 = [1,2,3,4,5]
 #this above work can be done in easy way using list compression
 
 squarelist1 = [i*i for i in list1]
-print(squarelist1)
+print(squarelist1)  
