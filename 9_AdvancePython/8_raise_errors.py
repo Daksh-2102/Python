@@ -6,4 +6,4 @@ b = int(input("Enter b : "))
 if (b==0):
     raise ZeroDivisionError 
 else:
-    print(a/b)
+    print(a/b) 
