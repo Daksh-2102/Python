@@ -11,6 +11,6 @@ Table2 = {
     'VS'   : 89
 }
 
-merged = Table1 | Table2
+merged = Table1 | Table2  
 
 print(f"Merged tables after semis : {merged} ")
