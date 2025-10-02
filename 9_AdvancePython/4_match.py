@@ -8,7 +8,7 @@ def network_protocols(protocol):
         case 'https':
             print(f"{protocol} : HYPER TEXT TRANFER PROTOCOL SECURE")
         case 'ftp':
-            print(f"{protocol} : FILE TRANFER PROTOCOL")
+            print(f"{protocol} : FILE TRANFER PROTOCOL") 
         case 'tls':
             print(f"{protocol} : TRANSPORT LAYER PROTOCOL")    
         case _:
