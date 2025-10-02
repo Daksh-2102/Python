@@ -12,4 +12,4 @@ dict : Dict[str,int] = {
 
 print(num)
 print(name)
-print(dict)
+print(dict)  
