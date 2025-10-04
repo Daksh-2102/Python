@@ -5,9 +5,22 @@ mylist = [1,'app','rat',69]
 
 print(mylist)
 
+#create empty list
+mylist1 = list()
+print(mylist1)
+
+
 for i in mylist:
     print(i)
 
 #Add items 
-mylist.append('bat')
-print(mylist)
+mylist1.append('bat')
+print(mylist1)
+
+#check presence 
+
+if 1 in mylist: #yes
+    print("yes")
+else:
+    print("no")
+
