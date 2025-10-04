@@ -4,3 +4,6 @@ Denoted by [] '''
 mylist = [1,'app','rat',69]
 
 print(mylist)
+
+for i in mylist:
+    print(i)
