@@ -28,3 +28,10 @@ else:
 
 mylist1.insert(0,'mouse')
 print(mylist1)
+
+print(mylist[-4: ]) #accesing items using neg indexing 
+
+mylist[0] = "2" #changing items
+print(mylist)
+
+#we can add items using append , insert and extend which helps to add another list
