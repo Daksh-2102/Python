@@ -7,3 +7,7 @@ print(mylist)
 
 for i in mylist:
     print(i)
+
+#Add items 
+mylist.append('bat')
+print(mylist)
