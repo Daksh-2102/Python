@@ -1,0 +1,1 @@
+'''Tuple is immutable datatype that can store duplicate items '''

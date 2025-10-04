@@ -1,4 +1,4 @@
-'''Lists are mutable data types in py i.e it can stores duplicates as well 
+'''Lists are mutable i.e can be modified  data types in py and it can stores duplicates as well 
 Denoted by [] '''
 
 mylist = [1,'app','rat',69]
