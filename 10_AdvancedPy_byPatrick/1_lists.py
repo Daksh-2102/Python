@@ -35,3 +35,10 @@ mylist[0] = "2" #changing items
 print(mylist)
 
 #we can add items using append , insert and extend which helps to add another list
+
+#reversing list cool way
+mylist3 = [1,2,3,4,5]
+
+print(mylist3[::-1]) #prints the above list in reverse order
+
+print(mylist3[::1]) #prints the whole list
