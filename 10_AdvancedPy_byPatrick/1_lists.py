@@ -23,4 +23,8 @@ if 1 in mylist: #yes
     print("yes")
 else:
     print("no")
+    
+#inserting at particular index : use insert method
 
+mylist1.insert(0,'mouse')
+print(mylist1)
