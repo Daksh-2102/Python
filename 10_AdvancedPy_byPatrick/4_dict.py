@@ -1,0 +1,13 @@
+#Dict are the key value pairs that are mutable, unordered
+
+dict1 = {
+    'name' : 'daksh',
+    'age' : 19,
+    'rollno' : 3
+}
+print(type(dict1))
+print((dict1))
+
+#we can too create a dict using the dict fxn
+dict2 = dict(name = 'daksh', age = 19 , city = 'Jmu')
+print(type(dict2))
