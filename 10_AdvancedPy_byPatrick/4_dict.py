@@ -33,3 +33,8 @@ for keys in dict1.keys():
     print(keys)
     
 print(dict1.values())
+
+#add
+
+dict1.update({'name' : 'vasu'})
+print(dict1)
