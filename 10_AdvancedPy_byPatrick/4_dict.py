@@ -11,3 +11,7 @@ print((dict1))
 #we can too create a dict using the dict fxn
 dict2 = dict(name = 'daksh', age = 19 , city = 'Jmu')
 print(type(dict2))
+
+#Access particular dict item
+
+print(dict1['name']), print(dict1['age'])
