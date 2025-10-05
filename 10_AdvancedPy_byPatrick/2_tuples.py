@@ -1,6 +1,6 @@
 '''Tuple is immutable datatype that can store duplicate items ''' 
 
-mytup = (1,'2',3,'rat')
+mytup = (1,'2',3,'rat',1)
 
 print(type(mytup))
 print(mytup)
@@ -17,3 +17,12 @@ print(mytup)
 
 for i in range(len(mytup)):
     print(mytup[i])
+
+print(mytup.count(1)) #2
+print(mytup.index('2')) #1
+
+tup3 = (1,2,3,4,5)
+
+i1 , *i2 = tup3 # "*" this helps to take all items in one var.
+print(i1)
+print(i2)
