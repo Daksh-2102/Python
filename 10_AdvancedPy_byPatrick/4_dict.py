@@ -16,3 +16,7 @@ print(type(dict2))
 
 print(dict1['name']), print(dict1['age'])
 
+#addng elems
+
+dict1['email'] = 'dakshvasu21@gmail.com'
+print(dict1)
