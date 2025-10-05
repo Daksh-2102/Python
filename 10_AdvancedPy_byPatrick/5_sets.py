@@ -32,3 +32,4 @@ setB = {1,2,3,4,11,12,13}
 print(setA.difference(setB)) # a-b returns onlyb elems that are present in a
 print(setB.difference(setA)) # b-a returns onlyb elems that are present in b
 
+print(setB.symmetric_difference(setA)) # common elems of both sets are discarded
