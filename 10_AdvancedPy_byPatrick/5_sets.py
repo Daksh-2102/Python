@@ -24,3 +24,11 @@ primes = {1,3,5,7,11}
 print(odd.union(even)) #{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 print(odd.intersection(primes)) #{1, 3, 5, 7}
 
+#DIFFRENCE AND SYMMETRIC DIFF
+
+setA = {1,2,3,4,5,6,7,8}
+setB = {1,2,3,4,11,12,13}
+
+print(setA.difference(setB)) # a-b returns onlyb elems that are present in a
+print(setB.difference(setA)) # b-a returns onlyb elems that are present in b
+
