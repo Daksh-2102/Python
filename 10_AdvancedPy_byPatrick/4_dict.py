@@ -20,3 +20,16 @@ print(dict1['name']), print(dict1['age'])
 
 dict1['email'] = 'dakshvasu21@gmail.com'
 print(dict1)
+
+
+try:
+    print("yes", dict1['lname'])
+except :
+    print("Error")
+
+#for separetely printing keys or values
+
+for keys in dict1.keys():
+    print(keys)
+    
+print(dict1.values())
