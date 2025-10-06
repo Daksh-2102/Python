@@ -7,4 +7,4 @@ from collections import Counter
 str = "aaaaabbbbccc"
 count = Counter(str)
 
-print(count)
+print(count)  
