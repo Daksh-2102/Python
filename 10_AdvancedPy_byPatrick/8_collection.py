@@ -14,3 +14,5 @@ print(count.keys()) #dict_keys(['a', 'b', 'c'])
 print(count.items()) #dict_items([('a', 5), ('b', 4), ('c', 3)])
 
 print(count.values()) #dict_values([5, 4, 3])
+
+
