@@ -2,7 +2,7 @@
 
 #conversion -> automatically
 a = 3
-b = 8.98
+b = 8.98 
 
 sum = a + b
 print(sum)
