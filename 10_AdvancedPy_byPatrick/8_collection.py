@@ -15,4 +15,5 @@ print(count.items()) #dict_items([('a', 5), ('b', 4), ('c', 3)])
 
 print(count.values()) #dict_values([5, 4, 3])
 
-
+#to check the most common elements
+print(count.most_common(1)) # 1 -> THE most common one element
