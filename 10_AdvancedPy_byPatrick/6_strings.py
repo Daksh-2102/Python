@@ -9,5 +9,8 @@ print(str[::1]) #prints the complete string
 print(str[::-1]) #prints the complete reversed string
 
 #concetnation
-greeting = "Hello"
+greeting = "HEllO"
 print(greeting + " " + str)
+
+print(greeting.lower())
+print(str.upper())
