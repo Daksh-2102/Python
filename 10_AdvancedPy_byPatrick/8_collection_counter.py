@@ -18,3 +18,4 @@ print(count.values()) #dict_values([5, 4, 3])
 #to check the most common elements
 print(count.most_common(1)[0][0]) # 1 -> THE most common one element and indexes will help to get the particular char
 
+
