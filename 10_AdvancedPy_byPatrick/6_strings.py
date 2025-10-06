@@ -19,3 +19,4 @@ print(str.replace('Sharma','Jogi'))
 
 str2 = "Daksh vasu pankaj raghu jass rohinish"
 print(str2.split())
+
