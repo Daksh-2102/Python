@@ -15,7 +15,9 @@ d.popleft() ##pops the leftmost elem
 
 d.extendleft((1,1,1,10,11))
 
-print(d.count(1)) #prints the count of the no.
+print(f"Elements before rotating : {d}")
 
-d.rotate(5) #rotates the deque by one step if no value assigned else assign the rotating value, then it will rotate that much time
-print(d)
+print(f"count = {d.count(1)}")  #prints the count of the no.
+
+d.rotate(2) #rotates the deque by one step if no value assigned else assign the rotating value, then it will ]rotate that much time
+print(f"Elements after rotating  : {d}")
