@@ -21,3 +21,8 @@ print(f"count = {d.count(1)}")  #prints the count of the no.
 
 d.rotate(2) #rotates the deque by one step if no value assigned else assign the rotating value, then it will ]rotate that much time
 print(f"Elements after rotating  : {d}")
+
+### all elements will rotate to left for one step i.e ist elem will shift to the end
+
+d.rotate(-1)
+print(f"Elements after negative rotation  : {d}")
