@@ -8,4 +8,4 @@ price = float(input("price =  ")) #float input
 
 print(name)
 print(age)
-print(price)  
+print(price)        
