@@ -14,3 +14,5 @@ print(greeting + " " + str)
 
 print(greeting.lower())
 print(str.upper())
+
+print(str.replace('Sharma','Jogi'))
