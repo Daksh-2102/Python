@@ -22,3 +22,8 @@ stop = T()
 print(stop - start)
 
  
+#String formating :- old method -> %s and .format()
+# new method -> f string
+
+
+
