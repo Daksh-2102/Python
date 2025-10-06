@@ -12,4 +12,10 @@ d.extend([2,3,4,5])
 d.appendleft(0)
 d.pop() ##pops the last elem
 d.popleft() ##pops the leftmost elem
+
+d.extendleft((1,1,1,10,11))
+
+print(d.count(1)) #prints the count of the no.
+
+d.rotate(5) #rotates the deque by one step if no value assigned else assign the rotating value, then it will rotate that much time
 print(d)
