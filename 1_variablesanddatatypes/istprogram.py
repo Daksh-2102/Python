@@ -9,4 +9,4 @@ roll_number = 2.60
 
 
 print (name, sem, roll_number)
-print (type(name) ,type(sem), type(roll_number))
+print (type(name) ,type(sem), type(roll_number)) 
