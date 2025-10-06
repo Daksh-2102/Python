@@ -19,5 +19,5 @@ Person = namedtuple('Person', ['name', 'age', 'city'])
 p1 = Person('Daksh', 21, 'Delhi')
 
 print(p1)
-print(p1.name,p1.age,p1.city) 
+print(p1.name,p1.age,p1.city)   
   
