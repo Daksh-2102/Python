@@ -1,19 +1,24 @@
 #strings part 2
 from timeit import default_timer as T
-str1 = ['a']*6
-print(str1) #['a', 'a', 'a', 'a', 'a', 'a']
+str1 = ['a']* 100000
+# print(str1) #['a', 'a', 'a', 'a', 'a', 'a']
 
 #bad way
-# start = T()
+start = T()
 string = "" 
 for i in str1:
     string+=i
-print(string)
+stop = T()
+# print(string)
+print(stop - start)
 
 
-#good wa6y
+#good way
 
 #join them :- if wants to join any str use join fxn
-print("".join(str1)) #aaaaaa
+start = T()
+# print("".join(str1)) #aaaaaa
+stop = T()
+print(stop - start)
 
-
+ 
