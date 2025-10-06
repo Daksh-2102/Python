@@ -3,7 +3,7 @@
 # 1. Arithmetic operator ( + , - , * , / , % )
 a = int(input("a = "))
 b = int(input("b = "))
-
+ 
 print("Sum = " ,a + b) 
 print("Diff = " ,a - b)
 print("Mul =  " ,a * b)
