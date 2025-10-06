@@ -11,4 +11,4 @@ print("Percentage in this semester = " ,round(Percentage,2))
 #percentage to cgpa :- percentage = cgpa * 9.5
 cgpa = Percentage/9.5
 
-print("Cgpa in this semester = " ,round(cgpa,2))
+print("Cgpa in this semester = " ,round(cgpa,2))  
