@@ -10,4 +10,4 @@ print(sys.getsizeof(tuple1),'bytes')
 
 #also list takes more time as compare to tuple when working with large data
 
-#So, tuple is more efficient than tuple
+#So, tuple is more efficient than tuple   
