@@ -16,4 +16,4 @@ b = (4,5,6)
    
 comb = combinations(b,2)
 
-print(list(comb))
+print(list(comb))  
