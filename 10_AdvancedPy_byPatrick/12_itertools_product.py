@@ -7,4 +7,4 @@ b = [3,4]
 
 pro = product(a,b)
 
-print(list(pro))  
+print(list(pro))     
